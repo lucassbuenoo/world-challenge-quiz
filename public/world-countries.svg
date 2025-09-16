@@ -1,0 +1,194 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 500" style="background: linear-gradient(180deg, #e3f2fd 0%, #f1f8e9 100%);">
+  <!-- World Map with Interactive Countries -->
+  
+  <!-- North America -->
+  <path id="US" d="M150 120 L280 110 L320 150 L350 140 L380 160 L350 200 L320 220 L280 230 L200 250 L120 200 L100 160 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="CA" d="M120 60 L380 50 L420 80 L400 120 L350 140 L280 110 L150 120 L100 90 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="MX" d="M200 250 L280 230 L320 220 L340 260 L300 300 L220 290 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  
+  <!-- Central America -->
+  <path id="GT" d="M220 290 L240 280 L250 300 L230 310 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BZ" d="M240 280 L250 275 L255 290 L245 295 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SV" d="M230 310 L245 305 L250 320 L235 325 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="HN" d="M245 295 L265 290 L270 310 L250 315 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="NI" d="M250 315 L270 310 L275 335 L255 340 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="CR" d="M255 340 L270 335 L275 350 L260 355 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="PA" d="M260 355 L280 350 L285 370 L265 375 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  
+  <!-- Caribbean -->
+  <path id="CU" d="M300 220 L360 215 L365 240 L305 245 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="JM" d="M310 260 L335 255 L340 270 L315 275 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="HT" d="M360 240 L380 235 L385 255 L365 260 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="DO" d="M385 255 L405 250 L410 270 L390 275 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  
+  <!-- South America -->
+  <path id="BR" d="M350 300 L480 290 L520 330 L510 420 L450 460 L380 450 L330 400 L320 350 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="AR" d="M330 400 L380 390 L420 430 L410 520 L350 510 L320 470 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="PE" d="M280 340 L330 330 L340 380 L300 390 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="CO" d="M300 300 L350 290 L360 330 L320 340 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="VE" d="M360 280 L410 275 L420 310 L370 315 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="GY" d="M420 310 L450 305 L455 330 L425 335 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SR" d="M455 330 L480 325 L485 350 L460 355 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="GF" d="M485 350 L510 345 L515 370 L490 375 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="EC" d="M280 360 L310 355 L315 380 L285 385 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BO" d="M315 380 L360 375 L370 420 L325 425 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="PY" d="M370 420 L410 415 L415 450 L375 455 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="UY" d="M410 450 L440 445 L445 470 L415 475 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="CL" d="M300 420 L330 415 L340 500 L310 505 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  
+  <!-- Europe -->
+  <path id="GB" d="M480 100 L510 95 L515 125 L485 130 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="IE" d="M460 105 L485 100 L490 125 L465 130 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="IS" d="M440 50 L480 45 L485 75 L445 80 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="NO" d="M520 60 L560 55 L570 110 L530 115 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SE" d="M570 70 L590 65 L600 115 L580 120 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="FI" d="M600 65 L640 60 L650 110 L610 115 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="DK" d="M540 115 L570 110 L575 130 L545 135 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="FR" d="M500 140 L540 135 L550 180 L510 185 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="ES" d="M480 180 L520 175 L525 210 L485 215 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="PT" d="M460 185 L485 180 L490 210 L465 215 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="IT" d="M550 180 L580 175 L590 230 L560 235 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="DE" d="M540 135 L580 130 L590 175 L550 180 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="PL" d="M590 130 L630 125 L640 170 L600 175 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="CZ" d="M570 150 L600 145 L610 170 L580 175 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SK" d="M600 145 L630 140 L640 165 L610 170 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="AT" d="M550 165 L590 160 L600 185 L560 190 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="CH" d="M540 170 L570 165 L580 185 L550 190 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="NL" d="M520 125 L550 120 L560 145 L530 150 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BE" d="M510 145 L540 140 L550 165 L520 170 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="LU" d="M530 155 L545 152 L550 165 L535 168 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="HU" d="M600 165 L640 160 L650 185 L610 190 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="RO" d="M640 170 L680 165 L690 200 L650 205 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BG" d="M650 185 L690 180 L700 205 L660 210 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="GR" d="M620 210 L660 205 L670 235 L630 240 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="AL" d="M600 200 L630 195 L640 220 L610 225 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="HR" d="M580 175 L620 170 L630 200 L590 205 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="RS" d="M620 185 L650 180 L660 210 L630 215 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BA" d="M590 190 L620 185 L630 210 L600 215 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SI" d="M570 180 L600 175 L610 195 L580 200 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="MK" d="M640 200 L660 195 L670 215 L650 220 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="ME" d="M610 205 L630 200 L640 220 L620 225 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="RU" d="M650 60 L900 50 L920 200 L680 210 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="UA" d="M640 155 L720 150 L730 190 L650 195 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BY" d="M640 125 L700 120 L710 155 L650 160 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="LT" d="M620 115 L650 110 L660 130 L630 135 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="LV" d="M630 100 L660 95 L670 115 L640 120 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="EE" d="M640 85 L670 80 L680 100 L650 105 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="MD" d="M680 160 L700 155 L710 180 L690 185 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  
+  <!-- Africa -->
+  <path id="MA" d="M460 220 L510 215 L520 270 L470 275 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="DZ" d="M510 215 L590 210 L600 290 L520 295 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="TN" d="M540 210 L570 205 L580 230 L550 235 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="LY" d="M580 230 L650 225 L660 290 L590 295 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="EG" d="M650 225 L700 220 L710 290 L660 295 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SD" d="M660 290 L720 285 L730 350 L670 355 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SS" d="M670 340 L720 335 L730 370 L680 375 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="ET" d="M720 320 L770 315 L780 360 L730 365 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="ER" d="M730 305 L760 300 L770 325 L740 330 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="DJ" d="M760 325 L780 320 L785 340 L765 345 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SO" d="M780 340 L820 335 L830 400 L790 405 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="KE" d="M730 360 L780 355 L790 400 L740 405 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="UG" d="M700 370 L740 365 L750 395 L710 400 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="TZ" d="M740 395 L790 390 L800 430 L750 435 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="RW" d="M710 385 L730 380 L740 400 L720 405 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BI" d="M720 395 L740 390 L750 410 L730 415 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="CF" d="M620 350 L680 345 L690 385 L630 390 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="TD" d="M600 290 L660 285 L670 355 L610 360 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="NE" d="M560 295 L620 290 L630 360 L570 365 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="NG" d="M570 360 L620 355 L630 400 L580 405 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="CM" d="M580 385 L620 380 L630 420 L590 425 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="GQ" d="M590 415 L610 410 L615 430 L595 435 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="GA" d="M590 425 L630 420 L640 460 L600 465 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="CG" d="M630 420 L680 415 L690 465 L640 470 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="CD" d="M680 385 L750 380 L760 470 L690 475 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="AO" d="M640 460 L720 455 L730 520 L650 525 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="ZM" d="M720 450 L780 445 L790 490 L730 495 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="MW" d="M780 440 L800 435 L810 470 L790 475 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="MZ" d="M790 470 L830 465 L840 520 L800 525 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="ZW" d="M760 480 L800 475 L810 510 L770 515 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BW" d="M730 500 L770 495 L780 530 L740 535 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="NA" d="M700 500 L740 495 L750 540 L710 545 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="ZA" d="M740 530 L800 525 L810 570 L750 575 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="LS" d="M770 545 L790 540 L800 560 L780 565 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SZ" d="M800 540 L820 535 L830 555 L810 560 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="MG" d="M830 480 L870 475 L880 530 L840 535 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="ML" d="M500 295 L570 290 L580 340 L510 345 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BF" d="M510 340 L560 335 L570 365 L520 370 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="CI" d="M480 365 L530 360 L540 395 L490 400 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="GH" d="M520 365 L560 360 L570 395 L530 400 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="TG" d="M540 395 L560 390 L570 415 L550 420 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BJ" d="M560 390 L580 385 L590 415 L570 420 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SN" d="M440 315 L490 310 L500 340 L450 345 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="GM" d="M450 325 L480 322 L485 335 L455 338 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="GW" d="M430 335 L460 330 L470 350 L440 355 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="GN" d="M440 350 L480 345 L490 380 L450 385 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SL" d="M450 380 L480 375 L490 400 L460 405 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="LR" d="M460 400 L490 395 L500 425 L470 430 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="MR" d="M470 275 L530 270 L540 320 L480 325 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  
+  <!-- Middle East -->
+  <path id="TR" d="M680 190 L760 185 L770 230 L690 235 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SY" d="M700 235 L740 230 L750 260 L710 265 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="LB" d="M710 245 L725 242 L730 255 L715 258 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="IL" d="M715 255 L730 252 L735 270 L720 273 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="JO" d="M720 270 L750 265 L760 290 L730 295 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="IQ" d="M740 230 L790 225 L800 280 L750 285 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="IR" d="M790 225 L860 220 L870 290 L800 295 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SA" d="M730 280 L820 275 L830 340 L740 345 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="YE" d="M790 340 L830 335 L840 370 L800 375 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="OM" d="M830 320 L870 315 L880 360 L840 365 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="AE" d="M820 315 L850 312 L855 330 L825 333 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="QA" d="M810 310 L825 308 L830 320 L815 322 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BH" d="M805 308 L815 306 L820 315 L810 317 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="KW" d="M800 290 L820 287 L825 305 L805 308 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  
+  <!-- Central Asia -->
+  <path id="KZ" d="M720 150 L860 145 L870 200 L730 205 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="UZ" d="M800 200 L860 195 L870 240 L810 245 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="TM" d="M810 240 L870 235 L880 280 L820 285 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="KG" d="M860 190 L900 185 L910 215 L870 220 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="TJ" d="M870 215 L910 210 L920 240 L880 245 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="AF" d="M820 245 L880 240 L890 290 L830 295 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  
+  <!-- South Caucasus -->
+  <path id="GE" d="M730 185 L770 180 L780 200 L740 205 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="AM" d="M750 200 L770 195 L780 215 L760 220 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="AZ" d="M770 195 L810 190 L820 220 L780 225 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  
+  <!-- South Asia -->
+  <path id="IN" d="M830 250 L920 245 L930 340 L840 345 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="PK" d="M820 240 L870 235 L880 290 L830 295 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BD" d="M920 280 L950 275 L960 305 L930 310 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="LK" d="M890 340 L920 335 L930 360 L900 365 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="NP" d="M890 260 L920 255 L930 275 L900 280 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BT" d="M920 255 L940 250 L950 270 L930 275 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="MV" d="M880 360 L900 355 L910 375 L890 380 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  
+  <!-- East Asia -->
+  <path id="CN" d="M870 150 L980 145 L990 280 L880 285 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="MN" d="M900 100 L980 95 L990 150 L910 155 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="KP" d="M960 200 L980 195 L990 220 L970 225 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="KR" d="M970 220 L990 215 L1000 245 L980 250 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="JP" d="M1000 180 L1050 175 L1060 250 L1010 255 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="TW" d="M990 270 L1010 265 L1020 290 L1000 295 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  
+  <!-- Southeast Asia -->
+  <path id="MM" d="M930 280 L970 275 L980 320 L940 325 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="TH" d="M940 320 L980 315 L990 360 L950 365 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="LA" d="M960 300 L990 295 L1000 330 L970 335 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="VN" d="M990 300 L1020 295 L1030 360 L1000 365 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="KH" d="M970 340 L1000 335 L1010 365 L980 370 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="MY" d="M950 360 L1000 355 L1010 385 L960 390 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="BN" d="M990 370 L1010 365 L1020 385 L1000 390 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="SG" d="M980 385 L995 382 L1000 392 L985 395 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="ID" d="M920 380 L1050 375 L1060 420 L930 425 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="PH" d="M1020 320 L1080 315 L1090 380 L1030 385 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="TL" d="M1050 410 L1080 405 L1090 425 L1060 430 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  
+  <!-- Oceania -->
+  <path id="AU" d="M1000 400 L1150 395 L1160 480 L1010 485 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="NZ" d="M1130 470 L1170 465 L1180 510 L1140 515 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="PG" d="M1080 380 L1130 375 L1140 410 L1090 415 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+  <path id="FJ" d="M1160 430 L1180 425 L1190 450 L1170 455 Z" fill="#e0e0e0" stroke="#999" stroke-width="0.5"/>
+</svg>
