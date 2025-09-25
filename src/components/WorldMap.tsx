@@ -118,20 +118,57 @@ export function WorldMap({ correctCountries, isGameFinished = false }: WorldMapP
           <>
             <div
               ref={containerRef}
-              className="w-full aspect-[2/1] [&_svg]:w-full [&_svg]:h-full [&_svg]:object-contain transition-transform duration-200"
+              className="w-full h-full max-h-[80vh] overflow-hidden relative touch-none"
               style={{
                 background: 'linear-gradient(180deg, hsl(var(--quiz-ocean)/0.1), hsl(var(--quiz-earth)/0.05))',
                 borderRadius: '8px',
-                minHeight: '400px',
                 transform: `translate(${position.x}px, ${position.y}px) scale(${zoom})`,
-                cursor: zoom > 1 ? (isDragging ? 'grabbing' : 'grab') : 'default'
+                transformOrigin: "center center",
+                cursor: zoom > 1 ? (isDragging ? 'grabbing' : 'grab') : 'default',
               }}
               onMouseDown={handleMouseDown}
               onMouseMove={handleMouseMove}
               onMouseUp={handleMouseUp}
               onMouseLeave={handleMouseUp}
+              onTouchStart={(e) => {
+                if (e.touches.length === 1) {
+                  // arrasto com 1 dedo
+                  const touch = e.touches[0];
+                  setIsDragging(true);
+                  setDragStart({ x: touch.clientX - position.x, y: touch.clientY - position.y });
+                } else if (e.touches.length === 2) {
+                  // pinça com 2 dedos -> zoom
+                  const dx = e.touches[0].clientX - e.touches[1].clientX;
+                  const dy = e.touches[0].clientY - e.touches[1].clientY;
+                  const distance = Math.sqrt(dx * dx + dy * dy);
+                  (containerRef.current as any).initialDistance = distance;
+                  (containerRef.current as any).initialZoom = zoom;
+                }
+              }}
+              onTouchMove={(e) => {
+                if (e.touches.length === 1 && isDragging) {
+                  const touch = e.touches[0];
+                  setPosition({
+                    x: touch.clientX - dragStart.x,
+                    y: touch.clientY - dragStart.y,
+                  });
+                } else if (e.touches.length === 2) {
+                  const dx = e.touches[0].clientX - e.touches[1].clientX;
+                  const dy = e.touches[0].clientY - e.touches[1].clientY;
+                  const distance = Math.sqrt(dx * dx + dy * dy);
+                  const initialDistance = (containerRef.current as any).initialDistance || distance;
+                  const initialZoom = (containerRef.current as any).initialZoom || zoom;
+                  let newZoom = (distance / initialDistance) * initialZoom;
+                  newZoom = Math.max(1, Math.min(newZoom, 4));
+                  setZoom(newZoom);
+                }
+              }}
+              onTouchEnd={() => {
+                setIsDragging(false);
+              }}
               dangerouslySetInnerHTML={{ __html: svgContent }}
             />
+
 
             {/* Zoom Controls */}
             <div className="absolute bottom-4 left-4 flex flex-col gap-2">
