@@ -80,7 +80,6 @@
   "enterYourName": "Digite seu nome",
   "enterYourPhone": "Digite seu telefone",
   "enterYourCountry": "Digite seu país",
-  "cancel": "Cancelar",
   "saving": "Salvando...",
   "saveChanges": "Salvar Alterações",
   "success": "Sucesso",
@@ -91,5 +90,9 @@
   "countryPlaceholder": "Digite o nome do país...",
   "confirm": "Confirmar",
   "startQuizButton": "Iniciar Quiz",
-  "readyToStart": "Pronto para começar?"
+  "readyToStart": "Pronto para começar?",
+  "aboutUs": "Sobre Nós",
+  "howToPlayMenu": "Como Jogar",
+  "homeMenu": "Início"
+
 }

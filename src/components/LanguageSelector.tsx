@@ -20,7 +20,11 @@ export function LanguageSelector({ position = 'center' }: LanguageSelectorProps)
           <SelectTrigger className="w-48 bg-card border-quiz-continent/50 hover:bg-card/90">
             <SelectValue />
           </SelectTrigger>
-          <SelectContent className="bg-card border-quiz-continent/50">
+          <SelectContent 
+            className="bg-card border-quiz-continent/50"
+            align="end" /* garante alinhamento à direita */
+            sideOffset={4} /* espaço do trigger */
+          >
             {languages.map((lang) => (
               <SelectItem 
                 key={lang.code} 
@@ -49,7 +53,11 @@ export function LanguageSelector({ position = 'center' }: LanguageSelectorProps)
           <SelectTrigger className="w-64 bg-card border-quiz-continent/50 hover:bg-card/90 z-50">
             <SelectValue />
           </SelectTrigger>
-          <SelectContent className="bg-card border-quiz-continent/50 z-50">
+          <SelectContent 
+            className="bg-card border-quiz-continent/50 z-50"
+            align="center"
+            sideOffset={4}
+          >
             {languages.map((lang) => (
               <SelectItem 
                 key={lang.code} 
@@ -74,7 +82,11 @@ export function LanguageSelector({ position = 'center' }: LanguageSelectorProps)
       <SelectTrigger className="w-40 bg-card border-quiz-continent/50 hover:bg-card/90">
         <SelectValue />
       </SelectTrigger>
-      <SelectContent className="bg-card border-quiz-continent/50">
+      <SelectContent 
+        className="bg-card border-quiz-continent/50"
+        align="end" /* impede de estourar pra direita */
+        sideOffset={4}
+      >
         {languages.map((lang) => (
           <SelectItem 
             key={lang.code} 

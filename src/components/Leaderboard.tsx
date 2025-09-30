@@ -12,7 +12,12 @@ import {
   PaginationPrevious,
 } from "@/components/ui/pagination";
 
-export function Leaderboard() {
+// Adicione a interface de props
+interface LeaderboardProps {
+  highlightTop?: boolean;
+}
+
+export function Leaderboard({ highlightTop = false }: LeaderboardProps) {
   const { t } = useTranslation();
   const { getLeaderboard } = useGameScores();
   const [leaders, setLeaders] = useState<LeaderboardEntry[]>([]);
@@ -30,7 +35,6 @@ export function Leaderboard() {
       const { data } = await getLeaderboard(maxEntries); // Fetch all 50 entries
       if (data) {
         setTotalEntries(data.length);
-        // Get entries for current page
         const startIndex = (currentPage - 1) * entriesPerPage;
         const endIndex = startIndex + entriesPerPage;
         setLeaders(data.slice(startIndex, endIndex));
@@ -42,6 +46,10 @@ export function Leaderboard() {
   }, [currentPage]);
 
   const getRankIcon = (index: number, actualRank: number) => {
+    // Destacar top 1 se highlightTop for true
+    if (highlightTop && actualRank === 1) {
+      return <Trophy className="w-6 h-6 text-yellow-400 animate-pulse" />;
+    }
     if (actualRank === 1) return <Trophy className="w-5 h-5 text-yellow-500" />;
     if (actualRank === 2) return <Medal className="w-5 h-5 text-gray-400" />;
     if (actualRank === 3) return <Award className="w-5 h-5 text-amber-600" />;
@@ -90,7 +98,9 @@ export function Leaderboard() {
             return (
               <div
                 key={entry.id}
-                className="flex items-center gap-3 p-3 rounded-lg bg-background/50 hover:bg-background/70 transition-colors"
+                className={`flex items-center gap-3 p-3 rounded-lg transition-colors 
+                  ${highlightTop && actualRank === 1 ? 'bg-yellow-50' : 'bg-background/50'} 
+                  hover:bg-background/70`}
               >
                 {getRankIcon(index, actualRank)}
                 
@@ -117,7 +127,6 @@ export function Leaderboard() {
         )}
       </div>
 
-      {/* Pagination Controls */}
       {totalPages > 1 && (
         <div className="mt-6 flex justify-center">
           <Pagination>
