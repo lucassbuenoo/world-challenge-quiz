@@ -58,7 +58,6 @@
   "title": "Quiz dos Países do Mundo",
   "subtitle": "Desafio Global",
   "description": "Teste seus conhecimentos em geografia mundial! Descubra quantos dos 196 países reconhecidos pela ONU você consegue nomear em 15 minutos.",
-  "howToPlay": "Como Jogar",
   "timeLimit": "12 Minutos",
   "timeLimitDesc": "Você tem exatamente 12 minutos para nomear o máximo de países possível.",
   "interactiveMap": "Mapa Interativo",
@@ -92,7 +91,46 @@
   "startQuizButton": "Iniciar Quiz",
   "readyToStart": "Pronto para começar?",
   "aboutUs": "Sobre Nós",
-  "howToPlayMenu": "Como Jogar",
-  "homeMenu": "Início"
+ "howToPlayMenu": "Como Jogar?",
+  "homeMenu": "Início",
+  "about": {
+    "title": "Sobre Nós",
+    "description": "Bem-vindo ao nosso jogo de adivinhar todos os países do mundo! 🌎 Aqui você aprende geografia de forma divertida e interativa, reconhecendo países, bandeiras e curiosidades sobre cada lugar.",
+    "imageAlt": "Globo terrestre ilustrado",
+    "backButton": "Voltar para a página inicial",
+    "curiosities": [
+      { "country": "Brasil", "fact": "O maior país da América do Sul e com a maior floresta tropical do mundo!" },
+      { "country": "Japão", "fact": "Formado por mais de 6.800 ilhas e famoso por sua tecnologia e cultura milenar." },
+      { "country": "Egito", "fact": "Abriga as pirâmides de Gizé, construídas há mais de 4.500 anos." },
+      { "country": "Canadá", "fact": "Possui mais lagos do que qualquer outro país no mundo." },
+      { "country": "Austrália", "fact": "O continente ilha famoso por sua biodiversidade única e praias incríveis." },
+      { "country": "França", "fact": "Conhecida por sua cultura, gastronomia e a icônica Torre Eiffel." }
+    ]
+  },
 
+  "howToPlay": {
+  "title": "Como Jogar",
+  "description": "Aprenda rapidamente como se divertir e melhorar seus conhecimentos de geografia!",
+  "imageAlt": "Globo terrestre ilustrado",
+  "backButton": "Voltar para a página inicial",
+  "steps": [
+    {
+      "icon": "MapPin",
+      "title": "Adivinhe os países",
+      "description": "Digite o nome do país que aparece no mapa. Se estiver correto, ele ficará verde!"
+    },
+    {
+      "icon": "Clock",
+      "title": "Tempo limite",
+      "description": "Você tem 15 minutos para acertar todos os países."
+    },
+    {
+      "icon": "Trophy",
+      "title": "Ranking",
+      "description": "No ranking, vence quem acertar mais países no menor tempo possível."
+    }
+  ]
+}
+
+  
 }

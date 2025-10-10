@@ -17,11 +17,10 @@ export const Header = () => {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-gradient-to-r from-quiz-ocean/50 to-quiz-earth/50 backdrop-blur-md shadow-md px-4 py-3 rounded-b-xl overflow-x-hidden">
-
       <div className="flex justify-between items-center">
         {/* Links Desktop */}
         <div className="hidden md:flex items-center gap-6">
-            <Button
+          <Button
             variant="link"
             className="text-white font-semibold hover:text-quiz-gold transition-all duration-300"
             onClick={() => navigate('/')}
@@ -53,9 +52,7 @@ export const Header = () => {
 
         {/* Lado direito */}
         <div className="flex items-center gap-4 relative">
-          <div className="relative">
-            <LanguageSelector position="inline" />
-          </div>
+          <LanguageSelector position="inline" />
           {user && <UserProfile />}
         </div>
       </div>
@@ -68,14 +65,14 @@ export const Header = () => {
             className="text-white font-semibold hover:text-quiz-gold transition-all duration-300"
             onClick={() => { navigate('/about'); setMenuOpen(false); }}
           >
-            {t('Sobre Nós')}
+            {t('aboutUs')}
           </Button>
           <Button
             variant="link"
             className="text-white font-semibold hover:text-quiz-gold transition-all duration-300"
-            onClick={() => { navigate('/comoJogar'); setMenuOpen(false); }}
+            onClick={() => { navigate('/howtoplay'); setMenuOpen(false); }}
           >
-            {t('Como Jogar')}
+            {t('howToPlayMenu')}
           </Button>
         </div>
       )}

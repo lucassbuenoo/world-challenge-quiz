@@ -57,7 +57,6 @@
   "title": "World Quiz Challenge",
   "subtitle": "Global Challenge",
   "description": "Test your world geography knowledge! Discover how many of the 196 UN recognized countries you can name in 15 minutes.",
-  "howToPlay": "How to Play",
   "timeLimit": "12 Minutes",
   "timeLimitDesc": "You have exactly 12 minutes to name as many countries as possible.",
   "interactiveMap": "Interactive Map",
@@ -90,5 +89,47 @@
   "countryPlaceholder": "Type country name...",
   "confirm": "Confirm",
   "startQuizButton": "Start Quiz", 
-  "readyToStart": "Ready to start?"
+  "readyToStart": "Ready to start?",
+   "aboutUs": "AboutUs",
+  "howToPlayMenu": "How To Play",
+  "homeMenu": "Home",
+
+    "about": {
+    "title": "About Us",
+    "description": "Welcome to our world countries guessing game! 🌎 Here you’ll learn geography in a fun and interactive way, recognizing countries, flags, and curiosities about each place.",
+    "imageAlt": "Illustrated globe of the Earth",
+    "backButton": "Back to home page",
+    "curiosities": [
+      { "country": "Brazil", "fact": "The largest country in South America and home to the world's biggest rainforest!" },
+      { "country": "Japan", "fact": "Made up of over 6,800 islands and famous for its technology and ancient culture." },
+      { "country": "Egypt", "fact": "Home to the Pyramids of Giza, built over 4,500 years ago." },
+      { "country": "Canada", "fact": "Has more lakes than any other country in the world." },
+      { "country": "Australia", "fact": "An island continent known for its unique wildlife and stunning beaches." },
+      { "country": "France", "fact": "Famous for its culture, cuisine, and the iconic Eiffel Tower." }
+    ]
+  },
+  "howToPlay": {
+  "title": "How to Play",
+  "description": "Learn quickly how to have fun and improve your geography knowledge!",
+  "imageAlt": "Illustrated globe",
+  "backButton": "Back to Home",
+  "steps": [
+    {
+      "icon": "MapPin",
+      "title": "Guess the countries",
+      "description": "Type the name of the country shown on the map. If it's correct, it turns green!"
+    },
+    {
+      "icon": "Clock",
+      "title": "Time limit",
+      "description": "You have 15 minutes to guess all countries."
+    },
+    {
+      "icon": "Trophy",
+      "title": "Leaderboard",
+      "description": "The winner is the one who finds the most countries in the shortest time possible."
+    }
+  ]
+}
+
 }

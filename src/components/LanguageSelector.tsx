@@ -3,7 +3,8 @@ import { useTranslation } from 'react-i18next';
 
 const languages = [
   { code: 'pt', name: 'Português', flag: '🇧🇷' },
-  { code: 'en', name: 'English', flag: '🇺🇸' }
+  { code: 'en', name: 'English', flag: '🇺🇸' },
+  { code: "es", name: "Español", flag: "🇪🇸" }
 ];
 
 interface LanguageSelectorProps {

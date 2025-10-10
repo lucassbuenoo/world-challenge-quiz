@@ -10,26 +10,22 @@ const About = () => {
   const { t } = useTranslation();
   const navigate = useNavigate();
 
-  // Curiosidades sobre países
-  const curiosities = [
-    { country: 'Brasil', fact: 'O maior país da América do Sul e com a maior floresta tropical do mundo!' },
-    { country: 'Japão', fact: 'Formado por mais de 6.800 ilhas e famoso por sua tecnologia e cultura milenar.' },
-    { country: 'Egito', fact: 'Abriga as pirâmides de Gizé, construídas há mais de 4.500 anos.' },
-    { country: 'Canadá', fact: 'Possui mais lagos do que qualquer outro país no mundo.' },
-    { country: 'Austrália', fact: 'O continente ilha famoso por sua biodiversidade única e praias incríveis.' },
-    { country: 'França', fact: 'Conhecida por sua cultura, gastronomia e a icônica Torre Eiffel.' },
-  ];
+  // Curiosidades — agora com tradução
+  const curiosities = t('about.curiosities', { returnObjects: true }) as {
+    country: string;
+    fact: string;
+  }[];
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-quiz-ocean/20 to-quiz-earth/20 relative">
       <Header />
 
       <div className="pt-28 p-6 flex flex-col items-center text-center space-y-8">
-        {/* Imagem do globo */}
+        {/* Imagem */}
         <div className="w-64 h-48 md:w-96 md:h-64 relative rounded-2xl overflow-hidden shadow-2xl">
           <img
             src={heroGlobe}
-            alt="Globo terrestre ilustrado"
+            alt={t('about.imageAlt')}
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
@@ -37,17 +33,15 @@ const About = () => {
 
         {/* Título */}
         <h1 className="text-4xl md:text-5xl font-extrabold text-foreground">
-          {t('Sobre Nós')}
+          {t('about.title')}
         </h1>
 
         {/* Descrição */}
         <p className="text-lg md:text-xl text-foreground/90 max-w-3xl leading-relaxed">
-          Bem-vindo ao nosso jogo de adivinhar todos os países do mundo! 🌎  
-          Aqui você aprende geografia de forma divertida e interativa,  
-          reconhecendo países, bandeiras e curiosidades sobre cada lugar.
+          {t('about.description')}
         </p>
 
-        {/* Cards de curiosidades */}
+        {/* Cards */}
         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 w-full max-w-5xl mt-6">
           {curiosities.map((item, index) => (
             <Card
@@ -71,7 +65,7 @@ const About = () => {
           variant="quiz"
           className="px-10 py-4 animate-pulse-slow hover:scale-105 transition-transform mt-8"
         >
-          {t('Voltar para a página inicial')}
+          {t('about.backButton')}
         </Button>
       </div>
     </div>
